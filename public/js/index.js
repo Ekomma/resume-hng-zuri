@@ -1,3 +1,3 @@
-const name = document.getElementById("myName")
-name.textContent = "Ogheneovo (Emmanuel) Eko"
+const nameAt = document.getElementById("myName")
+nameAt.textContent = "Ogheneovo (Emmanuel) Eko"
 console.log("Ogheneovo (Emmanuel) Eko")
