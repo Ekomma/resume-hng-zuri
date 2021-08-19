@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 350px;
+}
+
+.home-text {
+    width: 100%;
+    line-height: 2;
+}
+a {
+    vertical-align: middle;
+}
+a:hover {
+    opacity: 0.7;
+}
+.zuri {
+    max-width: 150px;
+}
+
+@media (max-width: 978px) {
+    .home {
+        padding: 8vh 0;
+    }
+    .intro {
+        /* padding: 40px 20px; */
+        text-align: center;
+
+    }
+    .logo {
+        width: 300px;
+        margin: 30px 0;
+    }
+    .home-text {
+        width: 100%;
+        line-height: 1.5;
+    }
+}
